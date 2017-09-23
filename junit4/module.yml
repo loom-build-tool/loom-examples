@@ -1,0 +1,5 @@
+plugins:
+  - junit
+testDependencies:
+  - org.junit.vintage:junit-vintage-engine:4.12.0
+

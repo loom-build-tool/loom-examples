@@ -18,6 +18,13 @@
     java -cp build/unnamed/jar/unnamed.jar builders.loom.example.basic.Main | grep 'Hello world'
 }
 
+@test "junit4" {
+    cd junit4
+    run ./loom -c -n build
+    [ "$status" -eq 0 ]
+    grep 'testsuite errors="0" failures="0" name="builders.loom.example.junit4.AppTest" skipped="1" tests="3"' build/reports/builders.loom.example.junit/test/TEST-builders.loom.example.junit4.AppTest.xml
+}
+
 @test "junit5" {
     cd junit5
     run ./loom -c -n build
