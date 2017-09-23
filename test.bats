@@ -22,6 +22,6 @@
     cd junit5
     run ./loom -c -n build
     [ "$status" -eq 0 ]
-    grep 'testsuite errors="0" failures="0" name="builders.loom.example.junit5.AppTest" skipped="1" tests="3"' build/reports/builders.loom.example.basic/test/TEST-builders.loom.example.junit5.AppTest.xml
+    grep 'testsuite errors="0" failures="0" name="builders.loom.example.junit5.AppTest" skipped="1" tests="3"' build/reports/builders.loom.example.junit5/test/TEST-builders.loom.example.junit5.AppTest.xml
 }
 

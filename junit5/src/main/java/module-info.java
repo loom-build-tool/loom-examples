@@ -1,3 +1,3 @@
-module builders.loom.example.basic {
+module builders.loom.example.junit5 {
 }
 
