@@ -6,4 +6,5 @@ This projects shows several example projects built with Loom.
 | --- | --- |
 | [basic](basic) | very basic example (Java 9 module with one class) without any configuration |
 | [basic-legacy](basic-legacy) | very basic example (Java 9 legacy/non-modularized) without any configuration |
- 
+| [junit5](junit5) | example of JUnit 5 usage |
+

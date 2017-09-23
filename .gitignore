@@ -7,7 +7,7 @@ build/
 *.iml
 *.ipr
 *.iws
-classes
+out
 
 # Eclipse
 .classpath

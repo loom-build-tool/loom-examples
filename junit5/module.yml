@@ -1,0 +1,4 @@
+plugins:
+  - junit
+testDependencies:
+  - org.junit.jupiter:junit-jupiter-engine:5.0.0
